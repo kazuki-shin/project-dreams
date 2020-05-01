@@ -33,6 +33,8 @@ A Dream recommendation system can reduce this friction, and get players in front
  For people who engage with the recommended Dreams and end up playing them, do they stay engaged with the game for a longer period of time before churning? Do they go on to Create Mode and become Dream creators as a result of their longer retention?
 - We start by targeting phase 1 – existing users, existing Dreams, a set of prioritized recommendations
 
+![Log](images/result3.png)
+
 ## Approach
 To create entity embeddings, we need to build an embedding neural network and train it on a supervised machine learning task that will result in similar dreams having closer representations in embedding space. The parameters of the neural network - the weights - are the embeddings, and so during training, these numbers are adjusted to minimize the loss on the prediction problem. In other words, the network tries to accurately complete the task by changing the representations of the dreams. 
 - Load in data and clean 
@@ -41,3 +43,5 @@ To create entity embeddings, we need to build an embedding neural network and tr
 - Train the neural network on prediction task. 
 - Extract embeddings and find most similar dreams. 
 - Visualize the embeddings using dimension reduction techniques
+
+![Log](images/result2png)
