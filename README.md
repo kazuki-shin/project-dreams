@@ -44,4 +44,4 @@ To create entity embeddings, we need to build an embedding neural network and tr
 - Extract embeddings and find most similar dreams. 
 - Visualize the embeddings using dimension reduction techniques
 
-![Log](images/result2png)
+![Log](images/result2.png)
